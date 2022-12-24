@@ -7,7 +7,7 @@ import List from "./pages/List/List";
 import F1 from "./pages/F1";
 import F2 from "./pages/F2";
 import F3 from "./pages/F3";
-import F4 from "./pages/f4";
+import f4 from "./pages/Main/f4";
 
 export default function Router() {
   return (

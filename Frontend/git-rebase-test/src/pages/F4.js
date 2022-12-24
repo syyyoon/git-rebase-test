@@ -6,7 +6,9 @@ const f4 = () => {
       <input />
       <input />
       <input />
-      <input />
+      <div>마지막 연습</div>
+      <div>마지막 연습</div>
+      <div>진짜마지막 연습</div>
     </div>
   );
 };

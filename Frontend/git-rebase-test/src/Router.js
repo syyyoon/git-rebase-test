@@ -10,7 +10,10 @@ import F3 from "./pages/F3";
 import F5 from "./pages/F5";
 import F7 from "./pages/F7";
 import F6 from "./pages/F6";
+<<<<<<< HEAD
 import Nav from "./pages/Nav";
+=======
+>>>>>>> dcb26cd ([김코딩] router 수정)
 
 export default function Router() {
   return (
@@ -24,9 +27,14 @@ export default function Router() {
         <Route path="/f2" element={<F2 />} />
         <Route path="/f3" element={<F3 />} />
         <Route path="/f5" element={<F5 />} />
+<<<<<<< HEAD
         <Route path="/f7" element={<F7 />} />
         <Route path="/f6" element={<F6 />} />
         <Route path="/nav" element={<Nav />} />
+=======
+        <Route path="/f" element={<F7 />} />
+        <Route path="/f6" element={<F6 />} />
+>>>>>>> dcb26cd ([김코딩] router 수정)
       </Routes>
     </BrowserRouter>
   );

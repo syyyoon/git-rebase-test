@@ -10,6 +10,8 @@ const F3 = () => {
       <h1>F2 페이지</h1>
       <div>리베이스 이제 좀 알것 같아요</div>
       <button> 1 </button>
+      <button> 3 </button>
+      <button> 3 </button>
     </div>
   );
 };

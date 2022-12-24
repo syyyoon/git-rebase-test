@@ -7,6 +7,8 @@ const F2 = () => {
       <button> hi</button>
       <h2>hello everyone!</h2>
       <h2>hello world</h2>
+      <h2>hello world</h2>
+      <h2>hello world</h2>
     </div>
   );
 };

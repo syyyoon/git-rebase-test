@@ -7,6 +7,7 @@ import List from "./pages/List/List";
 import F1 from "./pages/F1";
 import F2 from "./pages/F2";
 import F3 from "./pages/F3";
+import F5 from "./pages/F5";
 
 export default function Router() {
   return (
@@ -21,6 +22,7 @@ export default function Router() {
         <Route path="/f1" element={<F1 />} />
         <Route path="/f2" element={<F2 />} />
         <Route path="/f3" element={<F3 />} />
+        <Route path="/f5" element={<F5 />} />
       </Routes>
     </BrowserRouter>
   );

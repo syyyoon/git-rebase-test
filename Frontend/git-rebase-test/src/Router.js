@@ -11,6 +11,8 @@ import F5 from "./pages/F5";
 import F7 from "./pages/F7";
 import F6 from "./pages/F6";
 import Nav from "./pages/Nav";
+import Viewer from "./pages/Viewer";
+Vi;
 
 export default function Router() {
   return (
@@ -27,6 +29,7 @@ export default function Router() {
         <Route path="/f7" element={<F7 />} />
         <Route path="/f6" element={<F6 />} />
         <Route path="/nav" element={<Nav />} />
+        <Route path="/viewer" element={<Viewer />} />
       </Routes>
     </BrowserRouter>
   );

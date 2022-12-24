@@ -7,6 +7,7 @@ const F3 = () => {
       <button> 3 </button>
       <button> 4 </button>
       <h1>F2 페이지</h1>
+      <h1>F2 페이지</h1>
       <div>리베이스 이제 좀 알것 같아요</div>
       <button> 1 </button>
     </div>

@@ -5,6 +5,7 @@ const F2 = () => {
     <div>
       <button> hi everyone!</button>
       <button> hi</button>
+      <h2>hello everyone!</h2>
       <h2>hello world</h2>
     </div>
   );

@@ -8,7 +8,11 @@ import F1 from "./pages/F1";
 import F2 from "./pages/F2";
 import F3 from "./pages/F3";
 import F5 from "./pages/F5";
+<<<<<<< HEAD
 import F7 from "./pages/F7";
+=======
+import F6 from "./pages/F6";
+>>>>>>> b630cad ([윤선영] Add: F6 페이지 레이아웃 구현)
 
 export default function Router() {
   return (
@@ -24,7 +28,11 @@ export default function Router() {
         <Route path="/f2" element={<F2 />} />
         <Route path="/f3" element={<F3 />} />
         <Route path="/f5" element={<F5 />} />
+<<<<<<< HEAD
         <Route path="/f7" element={<F7 />} />
+=======
+        <Route path="/f6" element={<F6 />} />
+>>>>>>> b630cad ([윤선영] Add: F6 페이지 레이아웃 구현)
       </Routes>
     </BrowserRouter>
   );
